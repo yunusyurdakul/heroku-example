@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yunusyurdakul/hw1.svg?branch=master)](https://travis-ci.org/yunusyurdakul/hw1)
+
 Homework Assignment No: 1
 Includes the function, _findElementsBetween which takes 3 parameters, is to find elements between given indicies.
 
