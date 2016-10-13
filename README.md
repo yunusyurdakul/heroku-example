@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/yunusyurdakul/hw1.svg?branch=master)](https://travis-ci.org/yunusyurdakul/hw1)
 
+[![Code Climate](https://codeclimate.com/github/yunusyurdakul/hw1/badges/gpa.svg)](https://codeclimate.com/github/yunusyurdakul/hw1)
+
+[![Issue Count](https://codeclimate.com/github/yunusyurdakul/hw1/badges/issue_count.svg)](https://codeclimate.com/github/yunusyurdakul/hw1)
+
 Demo site: https://pacific-reef-97514.herokuapp.com/compute
 
 Homework Assignment No: 1
