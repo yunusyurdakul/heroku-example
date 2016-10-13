@@ -1,12 +1,44 @@
 <!doctype html>
-<title>My application</title>
-<h1>Hello, World!</h1>
-Result is {{result}}
-<form action="compute" method="post">
-	<textarea name="input1" rows="10" cols="30">
-	</textarea>
-	<textarea name="input2" rows="10" cols="30">
-	</textarea>
+<html>
+<head>
+	<script language="javascript">
+	function checkInput(ob) {
+	  var invalidChars = /[^0-9]/gi
+	  if(invalidChars.test(ob.value)) {
+		    ob.value = ob.value.replace(invalidChars,"");
+	      }
+	}
+	</script>
+	<title>My application</title>
+</head>
+	<h1>Homework Assignment No: 1 </h1>
+	<p>The function _findElementsBetween which takes 3 parameters, is to find elements between given indicies. </p>
 	<br>
-	<input type="submit">
-</form>
+	<p>input 1: index1 #Starting index, should be numeric</p>
+	<p>input 2: index2 #Ending index, should be numeric</p>
+	<p>input 3: elements   #Elements to search</p>
+	<p>Example of input 3: 
+	<br>a
+	<br>b
+	<br>c
+	<br>d
+	<br>e
+	<br>all values in array should be split with a new line(\n)
+	</p>
+	
+	<p>returns an array between two indicies index1 and index2 in elements </p>
+	<br>
+	<p>For example:</p>
+	<p>given array, arr = [1,2,3]</p>
+	<p>_findElementsBetween(1,2,arr) should return the array;</p>
+	<p>['2','3']</p>
+	<br>
+	Result is {{result}}
+	<form action="compute" method="post">
+		<textarea name="input1" placeholder="input1(Only numeric)" rows="10" cols="10" onkeyup="checkInput(this)"></textarea>
+		<textarea name="input2" placeholder="input2(Only numeric)" rows="10" cols="10" onkeyup="checkInput(this)"></textarea>
+		<textarea name="input3" placeholder="input3(Array, all values should be split with a new line)" rows="10" cols="30"></textarea>
+		<br>
+		<input type="submit">
+	</form>
+</html>
