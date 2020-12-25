@@ -6,7 +6,6 @@
 
 Demo site: https://pacific-reef-97514.herokuapp.com/compute
 
-Homework Assignment No: 1
 Includes the function, _findElementsBetween which takes 3 parameters, is to find elements between given indicies.
 
 	parameter 1: index1	#Starting index
